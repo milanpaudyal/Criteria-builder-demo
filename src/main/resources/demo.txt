@@ -1,0 +1,23 @@
+Lets do a demo
+
+I will create a controller to fetch the student list with parameters
+-> created date
+-> name
+-> and pagable
+
+we have to we specification to use criteria query and we need to extend JpaSpecificationExecuter from repository
+
+We write conditions for query in predicate so we need to create predicate.
+
+SInce from date and to date are not mandatory so we check whether the provided date is null
+or not, if not then we should add condition in query and same follows to name also.
+
+from date cannnot be greater than to date so check is performed.
+
+Now lets add some values and test
+
+Lets add some parameters
+
+Now test pageable by setting value page and size in request param
+
+THANKS FOR WATCHING !!!
